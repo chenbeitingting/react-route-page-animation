@@ -1,0 +1,899 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/lib/node_modules/cnpm/node_modules/.bin/npm',
+1 verbose cli   '--userconfig=/Users/chenbei/.cnpmrc',
+1 verbose cli   '--disturl=https://npm.taobao.org/mirrors/node',
+1 verbose cli   '--cache=/Users/chenbei/.cnpm',
+1 verbose cli   '--registry=https://registry.npm.taobao.org',
+1 verbose cli   '--node-gyp=/usr/local/lib/node_modules/cnpm/node_modules/node-gyp/bin/node-gyp.js',
+1 verbose cli   'install' ]
+2 info using npm@2.14.15
+3 info using node@v4.2.3
+4 verbose readDependencies loading dependencies from /Users/chenbei/Documents/cbStudy/react/router-test/package.json
+5 warn package.json react-router@2.0.0-rc5 No repository field.
+6 warn package.json react-router@2.0.0-rc5 No README data
+7 warn package.json react-router@2.0.0-rc5 No license field.
+8 verbose install where, deps [ '/Users/chenbei/Documents/cbStudy/react/router-test',
+8 verbose install   [ 'history',
+8 verbose install     'invariant',
+8 verbose install     'warning',
+8 verbose install     'babel',
+8 verbose install     'babel-core',
+8 verbose install     'babel-eslint',
+8 verbose install     'babel-loader',
+8 verbose install     'babel-plugin-dev-expression',
+8 verbose install     'bundle-loader',
+8 verbose install     'codecov.io',
+8 verbose install     'coveralls',
+8 verbose install     'css-loader',
+8 verbose install     'eslint',
+8 verbose install     'eslint-config-rackt',
+8 verbose install     'eslint-plugin-react',
+8 verbose install     'expect',
+8 verbose install     'express',
+8 verbose install     'express-urlrewrite',
+8 verbose install     'gzip-size',
+8 verbose install     'isparta-loader',
+8 verbose install     'mocha',
+8 verbose install     'pretty-bytes',
+8 verbose install     'qs',
+8 verbose install     'react',
+8 verbose install     'react-router',
+8 verbose install     'react-addons-css-transition-group',
+8 verbose install     'react-addons-test-utils',
+8 verbose install     'react-dom',
+8 verbose install     'rimraf',
+8 verbose install     'style-loader',
+8 verbose install     'webpack',
+8 verbose install     'webpack-dev-middleware',
+8 verbose install     'react-hot-loader',
+8 verbose install     'jsx-loader',
+8 verbose install     'react-router-loader' ] ]
+9 verbose install where, peers [ '/Users/chenbei/Documents/cbStudy/react/router-test', [] ]
+10 verbose installManyTop reading for lifecycle /Users/chenbei/Documents/cbStudy/react/router-test/package.json
+11 info preinstall react-router@2.0.0-rc5
+12 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/babel/package.json
+13 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/babel-core/package.json
+14 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/babel-eslint/package.json
+15 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/babel-loader/package.json
+16 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/babel-plugin-dev-expression/package.json
+17 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/bundle-loader/package.json
+18 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/codecov.io/package.json
+19 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/coveralls/package.json
+20 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/css-loader/package.json
+21 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/eslint/package.json
+22 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/eslint-config-rackt/package.json
+23 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/eslint-plugin-react/package.json
+24 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/expect/package.json
+25 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/express/package.json
+26 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/express-urlrewrite/package.json
+27 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/gzip-size/package.json
+28 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/history/package.json
+29 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/invariant/package.json
+30 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/isparta-loader/package.json
+31 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/jsx-loader/package.json
+32 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/mocha/package.json
+33 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/pretty-bytes/package.json
+34 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/qs/package.json
+35 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react/package.json
+36 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-addons-css-transition-group/package.json
+37 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-addons-test-utils/package.json
+38 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-dom/package.json
+39 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-hot-loader/package.json
+40 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router/package.json
+41 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/rimraf/package.json
+42 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/style-loader/package.json
+43 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/warning/package.json
+44 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/webpack/package.json
+45 verbose installManyTop reading scoped package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/webpack-dev-middleware/package.json
+46 info package.json bundle-loader@0.5.4 No license field.
+47 info package.json jsx-loader@0.13.2 license should be a valid SPDX license expression
+48 info package.json webpack-dev-middleware@1.5.1 No license field.
+49 info package.json react-addons-test-utils@0.14.0 No repository field.
+50 verbose readDependencies loading dependencies from /Users/chenbei/Documents/cbStudy/react/router-test/package.json
+51 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/babel/package.json
+52 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/babel-core/package.json
+53 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/babel-eslint/package.json
+54 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/babel-loader/package.json
+55 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/babel-plugin-dev-expression/package.json
+56 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/bundle-loader/package.json
+57 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/codecov.io/package.json
+58 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/coveralls/package.json
+59 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/css-loader/package.json
+60 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/eslint/package.json
+61 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/eslint-config-rackt/package.json
+62 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/eslint-plugin-react/package.json
+63 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/expect/package.json
+64 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/express/package.json
+65 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/express-urlrewrite/package.json
+66 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/gzip-size/package.json
+67 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/history/package.json
+68 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/invariant/package.json
+69 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/isparta-loader/package.json
+70 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/jsx-loader/package.json
+71 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/mocha/package.json
+72 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/pretty-bytes/package.json
+73 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/qs/package.json
+74 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react/package.json
+75 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-addons-css-transition-group/package.json
+76 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-addons-test-utils/package.json
+77 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-dom/package.json
+78 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-hot-loader/package.json
+79 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router/package.json
+80 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/rimraf/package.json
+81 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/style-loader/package.json
+82 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/warning/package.json
+83 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/webpack/package.json
+84 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/webpack-dev-middleware/package.json
+85 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/.bin/babel/package.json
+86 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/.bin/babel-external-helpers/package.json
+87 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/.bin/babel-node/package.json
+88 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/.bin/babel-plugin/package.json
+89 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/.bin/codecov/package.json
+90 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/.bin/coveralls/package.json
+91 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/.bin/eslint/package.json
+92 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/.bin/mocha/package.json
+93 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/.bin/pretty-bytes/package.json
+94 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/.bin/rimraf/package.json
+95 verbose targetResolver reading package data from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/.bin/webpack/package.json
+96 verbose already installed skipping babel-eslint@^4.1.6 /Users/chenbei/Documents/cbStudy/react/router-test
+97 verbose already installed skipping babel-loader@^5.0.0 /Users/chenbei/Documents/cbStudy/react/router-test
+98 verbose already installed skipping babel-plugin-dev-expression@^0.1.0 /Users/chenbei/Documents/cbStudy/react/router-test
+99 verbose already installed skipping bundle-loader@^0.5.2 /Users/chenbei/Documents/cbStudy/react/router-test
+100 verbose already installed skipping codecov.io@^0.1.6 /Users/chenbei/Documents/cbStudy/react/router-test
+101 verbose already installed skipping coveralls@^2.11.4 /Users/chenbei/Documents/cbStudy/react/router-test
+102 verbose already installed skipping css-loader@^0.19.0 /Users/chenbei/Documents/cbStudy/react/router-test
+103 verbose already installed skipping eslint@^1.7.3 /Users/chenbei/Documents/cbStudy/react/router-test
+104 verbose already installed skipping eslint-config-rackt@^1.1.0 /Users/chenbei/Documents/cbStudy/react/router-test
+105 verbose already installed skipping eslint-plugin-react@^3.6.3 /Users/chenbei/Documents/cbStudy/react/router-test
+106 verbose already installed skipping expect@^1.12.0 /Users/chenbei/Documents/cbStudy/react/router-test
+107 verbose already installed skipping express@^4.13.3 /Users/chenbei/Documents/cbStudy/react/router-test
+108 verbose already installed skipping express-urlrewrite@^1.2.0 /Users/chenbei/Documents/cbStudy/react/router-test
+109 verbose already installed skipping gzip-size@^3.0.0 /Users/chenbei/Documents/cbStudy/react/router-test
+110 verbose already installed skipping isparta-loader@^1.0.0 /Users/chenbei/Documents/cbStudy/react/router-test
+111 verbose already installed skipping mocha@^2.0.1 /Users/chenbei/Documents/cbStudy/react/router-test
+112 verbose already installed skipping pretty-bytes@^2.0.1 /Users/chenbei/Documents/cbStudy/react/router-test
+113 verbose already installed skipping qs@^4.0.0 /Users/chenbei/Documents/cbStudy/react/router-test
+114 verbose already installed skipping react@^0.14.0 /Users/chenbei/Documents/cbStudy/react/router-test
+115 verbose already installed skipping react-router@* /Users/chenbei/Documents/cbStudy/react/router-test
+116 verbose already installed skipping react-addons-css-transition-group@^0.14.0 /Users/chenbei/Documents/cbStudy/react/router-test
+117 verbose already installed skipping react-addons-test-utils@0.14.0 /Users/chenbei/Documents/cbStudy/react/router-test
+118 verbose already installed skipping react-dom@^0.14.0 /Users/chenbei/Documents/cbStudy/react/router-test
+119 verbose already installed skipping rimraf@^2.4.3 /Users/chenbei/Documents/cbStudy/react/router-test
+120 verbose already installed skipping style-loader@^0.12.4 /Users/chenbei/Documents/cbStudy/react/router-test
+121 verbose already installed skipping webpack@^1.4.13 /Users/chenbei/Documents/cbStudy/react/router-test
+122 verbose already installed skipping webpack-dev-middleware@^1.2.0 /Users/chenbei/Documents/cbStudy/react/router-test
+123 verbose already installed skipping react-hot-loader@* /Users/chenbei/Documents/cbStudy/react/router-test
+124 verbose already installed skipping jsx-loader@* /Users/chenbei/Documents/cbStudy/react/router-test
+125 silly cache add args [ 'react-router-loader@*', null ]
+126 verbose cache add spec react-router-loader@*
+127 silly cache add parsed spec Result {
+127 silly cache add   raw: 'react-router-loader@*',
+127 silly cache add   scope: null,
+127 silly cache add   name: 'react-router-loader',
+127 silly cache add   rawSpec: '*',
+127 silly cache add   spec: '*',
+127 silly cache add   type: 'range' }
+128 silly addNamed react-router-loader@*
+129 verbose addNamed "*" is a valid semver range for react-router-loader
+130 silly addNameRange { name: 'react-router-loader', range: '*', hasData: false }
+131 silly mapToRegistry name react-router-loader
+132 silly mapToRegistry using default registry
+133 silly mapToRegistry registry https://registry.npm.taobao.org/
+134 silly mapToRegistry uri https://registry.npm.taobao.org/react-router-loader
+135 verbose addNameRange registry:https://registry.npm.taobao.org/react-router-loader not in flight; fetching
+136 verbose already installed skipping history@^2.0.0-rc2 /Users/chenbei/Documents/cbStudy/react/router-test
+137 verbose already installed skipping invariant@^2.0.0 /Users/chenbei/Documents/cbStudy/react/router-test
+138 verbose already installed skipping warning@^2.0.0 /Users/chenbei/Documents/cbStudy/react/router-test
+139 verbose already installed skipping babel@^5.4.7 /Users/chenbei/Documents/cbStudy/react/router-test
+140 verbose already installed skipping babel-core@^5.4.7 /Users/chenbei/Documents/cbStudy/react/router-test
+141 verbose request uri https://registry.npm.taobao.org/react-router-loader
+142 verbose request no auth needed
+143 info attempt registry request try #1 at 15:08:50
+144 verbose request id b5b5b076468affc4
+145 http request GET https://registry.npm.taobao.org/react-router-loader
+146 http 200 https://registry.npm.taobao.org/react-router-loader
+147 verbose headers { date: 'Sat, 30 Jan 2016 07:08:39 GMT',
+147 verbose headers   'content-type': 'application/json; charset=utf-8',
+147 verbose headers   'content-length': '12807',
+147 verbose headers   connection: 'keep-alive',
+147 verbose headers   etag: '"3207-NfN/g/N2Ovmmsg9mO+g4uw"',
+147 verbose headers   'x-readtime': '27' }
+148 silly get cb [ 200,
+148 silly get   { date: 'Sat, 30 Jan 2016 07:08:39 GMT',
+148 silly get     'content-type': 'application/json; charset=utf-8',
+148 silly get     'content-length': '12807',
+148 silly get     connection: 'keep-alive',
+148 silly get     etag: '"3207-NfN/g/N2Ovmmsg9mO+g4uw"',
+148 silly get     'x-readtime': '27' } ]
+149 verbose get saving react-router-loader to /Users/chenbei/.cnpm/registry.npm.taobao.org/react-router-loader/.cache.json
+150 silly addNameRange number 2 { name: 'react-router-loader', range: '*', hasData: true }
+151 silly addNameRange versions [ 'react-router-loader',
+151 silly addNameRange   [ '0.5.3',
+151 silly addNameRange     '0.5.2',
+151 silly addNameRange     '0.5.1',
+151 silly addNameRange     '0.5.0',
+151 silly addNameRange     '0.4.1',
+151 silly addNameRange     '0.4.0',
+151 silly addNameRange     '0.4.0-beta1',
+151 silly addNameRange     '0.3.0' ] ]
+152 silly addNamed react-router-loader@0.5.3
+153 verbose addNamed "0.5.3" is a plain semver version for react-router-loader
+154 silly mapToRegistry name react-router-loader
+155 silly mapToRegistry using default registry
+156 silly mapToRegistry registry https://registry.npm.taobao.org/
+157 silly mapToRegistry uri https://registry.npm.taobao.org/react-router-loader
+158 verbose addRemoteTarball https://registry.npm.taobao.org/react-router-loader/download/react-router-loader-0.5.3.tgz not in flight; adding
+159 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/react-router-loader/download/react-router-loader-0.5.3.tgz',
+159 verbose addRemoteTarball   '33b937c5f4300b9af3f6461f2b1787c1e6ccf0c3' ]
+160 info retry fetch attempt 1 at 15:08:50
+161 info attempt registry request try #1 at 15:08:50
+162 http fetch GET https://registry.npm.taobao.org/react-router-loader/download/react-router-loader-0.5.3.tgz
+163 http fetch 200 https://registry.npm.taobao.org/react-router-loader/download/react-router-loader-0.5.3.tgz
+164 silly fetchAndShaCheck shasum 33b937c5f4300b9af3f6461f2b1787c1e6ccf0c3
+165 verbose addTmpTarball /var/folders/x6/b7yr7ss12cg932xjkxvkv7zr0000gp/T/npm-685-39768544/registry.npm.taobao.org/react-router-loader/download/react-router-loader-0.5.3.tgz not in flight; adding
+166 verbose addTmpTarball already have metadata; skipping unpack for react-router-loader@0.5.3
+167 silly cache afterAdd react-router-loader@0.5.3
+168 verbose afterAdd /Users/chenbei/.cnpm/react-router-loader/0.5.3/package/package.json not in flight; writing
+169 verbose afterAdd /Users/chenbei/.cnpm/react-router-loader/0.5.3/package/package.json written
+170 silly install resolved [ { name: 'react-router-loader',
+170 silly install resolved     version: '0.5.3',
+170 silly install resolved     description: 'Dynamically load react-router components on-demand',
+170 silly install resolved     main: 'index.js',
+170 silly install resolved     scripts: { test: '' },
+170 silly install resolved     repository:
+170 silly install resolved      { type: 'git',
+170 silly install resolved        url: 'git+https://github.com/luqin/react-router-loader.git' },
+170 silly install resolved     keywords: [ 'react', 'router', 'react-router', 'proxy', 'loader', 'webpack' ],
+170 silly install resolved     license: 'MIT',
+170 silly install resolved     dependencies: { 'loader-utils': '~0.2.12' },
+170 silly install resolved     devDependencies: { react: '^0.14.5' },
+170 silly install resolved     peerDependencies: { 'react-router': '>1.0.0 || >2.0.0-rc1' },
+170 silly install resolved     gitHead: '9a79c2a31e10e5da929ea2a819779c5ff429a575',
+170 silly install resolved     bugs: { url: 'https://github.com/luqin/react-router-loader/issues' },
+170 silly install resolved     homepage: 'https://github.com/luqin/react-router-loader#readme',
+170 silly install resolved     _id: 'react-router-loader@0.5.3',
+170 silly install resolved     _shasum: '33b937c5f4300b9af3f6461f2b1787c1e6ccf0c3',
+170 silly install resolved     _from: 'react-router-loader@*',
+170 silly install resolved     _npmVersion: '2.14.3',
+170 silly install resolved     _nodeVersion: '0.12.7',
+170 silly install resolved     _npmUser: { name: 'luqin', email: 'h-io@qq.com' },
+170 silly install resolved     dist:
+170 silly install resolved      { shasum: '33b937c5f4300b9af3f6461f2b1787c1e6ccf0c3',
+170 silly install resolved        size: 2265,
+170 silly install resolved        noattachment: false,
+170 silly install resolved        tarball: 'http://registry.npm.taobao.org/react-router-loader/download/react-router-loader-0.5.3.tgz' },
+170 silly install resolved     maintainers: [ [Object] ],
+170 silly install resolved     directories: {},
+170 silly install resolved     publish_time: 1453270570954,
+170 silly install resolved     _cnpm_publish_time: 1453270570954,
+170 silly install resolved     _resolved: 'https://registry.npm.taobao.org/react-router-loader/download/react-router-loader-0.5.3.tgz' } ]
+171 info install react-router-loader@0.5.3 into /Users/chenbei/Documents/cbStudy/react/router-test
+172 info installOne react-router-loader@0.5.3
+173 verbose installOne of react-router-loader to /Users/chenbei/Documents/cbStudy/react/router-test not in flight; installing
+174 verbose lock using /Users/chenbei/.cnpm/_locks/react-router-loader-b41dcb7cc1fbd79a.lock for /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader
+175 silly install write writing react-router-loader 0.5.3 to /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader
+176 verbose unbuild node_modules/react-router-loader
+177 silly gentlyRm /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader is being purged from base /Users/chenbei/Documents/cbStudy/react/router-test
+178 verbose gentlyRm don't care about contents; nuking /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader
+179 verbose tar unpack /Users/chenbei/.cnpm/react-router-loader/0.5.3/package.tgz
+180 verbose tar unpacking to /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader
+181 silly gentlyRm /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader is being purged
+182 verbose gentlyRm don't care about contents; nuking /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader
+183 silly gunzTarPerm modes [ '755', '644' ]
+184 silly gunzTarPerm extractEntry package.json
+185 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+186 silly gunzTarPerm extractEntry README.md
+187 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+188 silly gunzTarPerm extractEntry index.js
+189 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+190 silly gunzTarPerm extractEntry mixinReactProxy.js
+191 silly gunzTarPerm modified mode [ 'mixinReactProxy.js', 438, 420 ]
+192 silly gunzTarPerm extractEntry .editorconfig
+193 silly gunzTarPerm modified mode [ '.editorconfig', 438, 420 ]
+194 silly gunzTarPerm extractEntry .travis.yml
+195 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+196 silly gunzTarPerm extractEntry CHANGELOG.md
+197 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 438, 420 ]
+198 verbose write writing to /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/package.json
+199 info preinstall react-router-loader@0.5.3
+200 verbose readDependencies loading dependencies from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/package.json
+201 silly prepareForInstallMany adding loader-utils@~0.2.12 from react-router-loader dependencies
+202 verbose readDependencies loading dependencies from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/package.json
+203 silly cache add args [ 'loader-utils@~0.2.12', null ]
+204 verbose cache add spec loader-utils@~0.2.12
+205 silly cache add parsed spec Result {
+205 silly cache add   raw: 'loader-utils@~0.2.12',
+205 silly cache add   scope: null,
+205 silly cache add   name: 'loader-utils',
+205 silly cache add   rawSpec: '~0.2.12',
+205 silly cache add   spec: '>=0.2.12 <0.3.0',
+205 silly cache add   type: 'range' }
+206 silly addNamed loader-utils@>=0.2.12 <0.3.0
+207 verbose addNamed ">=0.2.12 <0.3.0" is a valid semver range for loader-utils
+208 silly addNameRange { name: 'loader-utils',
+208 silly addNameRange   range: '>=0.2.12 <0.3.0',
+208 silly addNameRange   hasData: false }
+209 silly mapToRegistry name loader-utils
+210 silly mapToRegistry using default registry
+211 silly mapToRegistry registry https://registry.npm.taobao.org/
+212 silly mapToRegistry uri https://registry.npm.taobao.org/loader-utils
+213 verbose addNameRange registry:https://registry.npm.taobao.org/loader-utils not in flight; fetching
+214 verbose request uri https://registry.npm.taobao.org/loader-utils
+215 verbose request no auth needed
+216 info attempt registry request try #1 at 15:08:55
+217 verbose etag "58df-D7hUPmkmn8WXctKJNeqnyw"
+218 http request GET https://registry.npm.taobao.org/loader-utils
+219 http 304 https://registry.npm.taobao.org/loader-utils
+220 verbose headers { date: 'Sat, 30 Jan 2016 07:08:44 GMT',
+220 verbose headers   connection: 'keep-alive',
+220 verbose headers   etag: '"58df-D7hUPmkmn8WXctKJNeqnyw"',
+220 verbose headers   'x-readtime': '24' }
+221 silly get cb [ 304,
+221 silly get   { date: 'Sat, 30 Jan 2016 07:08:44 GMT',
+221 silly get     connection: 'keep-alive',
+221 silly get     etag: '"58df-D7hUPmkmn8WXctKJNeqnyw"',
+221 silly get     'x-readtime': '24' } ]
+222 verbose etag https://registry.npm.taobao.org/loader-utils from cache
+223 verbose get saving loader-utils to /Users/chenbei/.cnpm/registry.npm.taobao.org/loader-utils/.cache.json
+224 silly addNameRange number 2 { name: 'loader-utils', range: '>=0.2.12 <0.3.0', hasData: true }
+225 silly addNameRange versions [ 'loader-utils',
+225 silly addNameRange   [ '0.2.12',
+225 silly addNameRange     '0.2.11',
+225 silly addNameRange     '0.2.10',
+225 silly addNameRange     '0.2.9',
+225 silly addNameRange     '0.2.8',
+225 silly addNameRange     '0.2.7',
+225 silly addNameRange     '0.2.6',
+225 silly addNameRange     '0.2.5',
+225 silly addNameRange     '0.2.4',
+225 silly addNameRange     '0.2.3',
+225 silly addNameRange     '0.2.2',
+225 silly addNameRange     '0.2.1',
+225 silly addNameRange     '0.2.0',
+225 silly addNameRange     '0.1.2',
+225 silly addNameRange     '0.1.1',
+225 silly addNameRange     '0.1.0' ] ]
+226 silly addNamed loader-utils@0.2.12
+227 verbose addNamed "0.2.12" is a plain semver version for loader-utils
+228 silly cache afterAdd loader-utils@0.2.12
+229 verbose afterAdd /Users/chenbei/.cnpm/loader-utils/0.2.12/package/package.json not in flight; writing
+230 verbose afterAdd /Users/chenbei/.cnpm/loader-utils/0.2.12/package/package.json written
+231 silly install resolved [ { name: 'loader-utils',
+231 silly install resolved     version: '0.2.12',
+231 silly install resolved     author: { name: 'Tobias Koppers @sokra' },
+231 silly install resolved     description: 'utils for webpack loaders',
+231 silly install resolved     dependencies: { 'big.js': '^3.0.2', json5: '^0.4.0' },
+231 silly install resolved     scripts:
+231 silly install resolved      { test: 'mocha',
+231 silly install resolved        travis: 'npm run cover -- --report lcovonly',
+231 silly install resolved        cover: 'istanbul cover -x *.runtime.js node_modules/mocha/bin/_mocha',
+231 silly install resolved        'publish-patch': 'mocha && npm version patch && git push && git push --tags && npm publish' },
+231 silly install resolved     license: 'MIT',
+231 silly install resolved     repository:
+231 silly install resolved      { type: 'git',
+231 silly install resolved        url: 'git+https://github.com/webpack/loader-utils.git' },
+231 silly install resolved     devDependencies: { coveralls: '^2.11.2', istanbul: '^0.3.14', mocha: '^1.21.4' },
+231 silly install resolved     files: [ 'index.js' ],
+231 silly install resolved     gitHead: '581ccbcb264a9e6d7d667276fbfa609e0ee951f3',
+231 silly install resolved     bugs: { url: 'https://github.com/webpack/loader-utils/issues' },
+231 silly install resolved     homepage: 'https://github.com/webpack/loader-utils#readme',
+231 silly install resolved     _id: 'loader-utils@0.2.12',
+231 silly install resolved     _shasum: 'faa2a501563a3c2c9dda57aa8c39d8be628de7a2',
+231 silly install resolved     _from: 'loader-utils@>=0.2.12 <0.3.0',
+231 silly install resolved     _npmVersion: '2.10.1',
+231 silly install resolved     _nodeVersion: '0.12.4',
+231 silly install resolved     _npmUser: { name: 'sokra', email: 'tobias.koppers@googlemail.com' },
+231 silly install resolved     maintainers: [ [Object] ],
+231 silly install resolved     dist:
+231 silly install resolved      { shasum: 'faa2a501563a3c2c9dda57aa8c39d8be628de7a2',
+231 silly install resolved        size: 5544,
+231 silly install resolved        noattachment: false,
+231 silly install resolved        tarball: 'http://registry.npm.taobao.org/loader-utils/download/loader-utils-0.2.12.tgz' },
+231 silly install resolved     directories: {},
+231 silly install resolved     publish_time: 1448315432833,
+231 silly install resolved     _cnpm_publish_time: 1448315432833,
+231 silly install resolved     _resolved: 'https://registry.npm.taobao.org/loader-utils/download/loader-utils-0.2.12.tgz',
+231 silly install resolved     readme: 'ERROR: No README data found!' } ]
+232 info install loader-utils@0.2.12 into /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader
+233 info installOne loader-utils@0.2.12
+234 verbose installOne of loader-utils to /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader not in flight; installing
+235 verbose lock using /Users/chenbei/.cnpm/_locks/loader-utils-a2267e61d2f8a174.lock for /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils
+236 silly install write writing loader-utils 0.2.12 to /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils
+237 verbose unbuild node_modules/react-router-loader/node_modules/loader-utils
+238 silly gentlyRm /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils is being purged from base /Users/chenbei/Documents/cbStudy/react/router-test
+239 verbose gentlyRm don't care about contents; nuking /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils
+240 verbose tar unpack /Users/chenbei/.cnpm/loader-utils/0.2.12/package.tgz
+241 verbose tar unpacking to /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils
+242 silly gentlyRm /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils is being purged
+243 verbose gentlyRm don't care about contents; nuking /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils
+244 silly gunzTarPerm modes [ '755', '644' ]
+245 silly gunzTarPerm extractEntry package.json
+246 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+247 silly gunzTarPerm extractEntry README.md
+248 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+249 silly gunzTarPerm extractEntry LICENSE
+250 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+251 silly gunzTarPerm extractEntry index.js
+252 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+253 verbose write writing to /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/package.json
+254 info preinstall loader-utils@0.2.12
+255 verbose readDependencies loading dependencies from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/package.json
+256 silly prepareForInstallMany adding big.js@^3.0.2 from loader-utils dependencies
+257 silly prepareForInstallMany adding json5@^0.4.0 from loader-utils dependencies
+258 verbose readDependencies loading dependencies from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/package.json
+259 silly cache add args [ 'big.js@^3.0.2', null ]
+260 verbose cache add spec big.js@^3.0.2
+261 silly cache add args [ 'json5@^0.4.0', null ]
+262 verbose cache add spec json5@^0.4.0
+263 silly cache add parsed spec Result {
+263 silly cache add   raw: 'big.js@^3.0.2',
+263 silly cache add   scope: null,
+263 silly cache add   name: 'big.js',
+263 silly cache add   rawSpec: '^3.0.2',
+263 silly cache add   spec: '>=3.0.2 <4.0.0',
+263 silly cache add   type: 'range' }
+264 silly addNamed big.js@>=3.0.2 <4.0.0
+265 verbose addNamed ">=3.0.2 <4.0.0" is a valid semver range for big.js
+266 silly addNameRange { name: 'big.js', range: '>=3.0.2 <4.0.0', hasData: false }
+267 silly mapToRegistry name big.js
+268 silly mapToRegistry using default registry
+269 silly mapToRegistry registry https://registry.npm.taobao.org/
+270 silly mapToRegistry uri https://registry.npm.taobao.org/big.js
+271 verbose addNameRange registry:https://registry.npm.taobao.org/big.js not in flight; fetching
+272 silly cache add parsed spec Result {
+272 silly cache add   raw: 'json5@^0.4.0',
+272 silly cache add   scope: null,
+272 silly cache add   name: 'json5',
+272 silly cache add   rawSpec: '^0.4.0',
+272 silly cache add   spec: '>=0.4.0 <0.5.0',
+272 silly cache add   type: 'range' }
+273 silly addNamed json5@>=0.4.0 <0.5.0
+274 verbose addNamed ">=0.4.0 <0.5.0" is a valid semver range for json5
+275 silly addNameRange { name: 'json5', range: '>=0.4.0 <0.5.0', hasData: false }
+276 silly mapToRegistry name json5
+277 silly mapToRegistry using default registry
+278 silly mapToRegistry registry https://registry.npm.taobao.org/
+279 silly mapToRegistry uri https://registry.npm.taobao.org/json5
+280 verbose addNameRange registry:https://registry.npm.taobao.org/json5 not in flight; fetching
+281 verbose request uri https://registry.npm.taobao.org/json5
+282 verbose request no auth needed
+283 info attempt registry request try #1 at 15:08:55
+284 verbose etag "37c7-0uIhVjeIT78QP8lxMCvCDA"
+285 http request GET https://registry.npm.taobao.org/json5
+286 verbose request uri https://registry.npm.taobao.org/big.js
+287 verbose request no auth needed
+288 info attempt registry request try #1 at 15:08:55
+289 verbose etag "6095-ALDE76d6hxl7XJHc3ngtSQ"
+290 http request GET https://registry.npm.taobao.org/big.js
+291 http 304 https://registry.npm.taobao.org/json5
+292 verbose headers { date: 'Sat, 30 Jan 2016 07:08:44 GMT',
+292 verbose headers   connection: 'keep-alive',
+292 verbose headers   etag: '"37c7-0uIhVjeIT78QP8lxMCvCDA"',
+292 verbose headers   'x-readtime': '38' }
+293 silly get cb [ 304,
+293 silly get   { date: 'Sat, 30 Jan 2016 07:08:44 GMT',
+293 silly get     connection: 'keep-alive',
+293 silly get     etag: '"37c7-0uIhVjeIT78QP8lxMCvCDA"',
+293 silly get     'x-readtime': '38' } ]
+294 verbose etag https://registry.npm.taobao.org/json5 from cache
+295 verbose get saving json5 to /Users/chenbei/.cnpm/registry.npm.taobao.org/json5/.cache.json
+296 http 304 https://registry.npm.taobao.org/big.js
+297 verbose headers { date: 'Sat, 30 Jan 2016 07:08:44 GMT',
+297 verbose headers   connection: 'keep-alive',
+297 verbose headers   etag: '"6095-ALDE76d6hxl7XJHc3ngtSQ"',
+297 verbose headers   'x-readtime': '38' }
+298 silly get cb [ 304,
+298 silly get   { date: 'Sat, 30 Jan 2016 07:08:44 GMT',
+298 silly get     connection: 'keep-alive',
+298 silly get     etag: '"6095-ALDE76d6hxl7XJHc3ngtSQ"',
+298 silly get     'x-readtime': '38' } ]
+299 verbose etag https://registry.npm.taobao.org/big.js from cache
+300 verbose get saving big.js to /Users/chenbei/.cnpm/registry.npm.taobao.org/big.js/.cache.json
+301 silly addNameRange number 2 { name: 'json5', range: '>=0.4.0 <0.5.0', hasData: true }
+302 silly addNameRange versions [ 'json5', [ '0.4.0', '0.2.0', '0.1.0', '0.0.1', '0.0.0' ] ]
+303 silly addNamed json5@0.4.0
+304 verbose addNamed "0.4.0" is a plain semver version for json5
+305 silly addNameRange number 2 { name: 'big.js', range: '>=3.0.2 <4.0.0', hasData: true }
+306 silly addNameRange versions [ 'big.js',
+306 silly addNameRange   [ '3.1.3',
+306 silly addNameRange     '3.1.2',
+306 silly addNameRange     '3.1.1',
+306 silly addNameRange     '3.0.2',
+306 silly addNameRange     '3.0.1',
+306 silly addNameRange     '3.0.0',
+306 silly addNameRange     '2.5.1',
+306 silly addNameRange     '2.5.0',
+306 silly addNameRange     '2.4.1',
+306 silly addNameRange     '2.4.0',
+306 silly addNameRange     '2.2.0',
+306 silly addNameRange     '2.1.0',
+306 silly addNameRange     '2.0.0' ] ]
+307 silly addNamed big.js@3.1.3
+308 verbose addNamed "3.1.3" is a plain semver version for big.js
+309 silly cache afterAdd big.js@3.1.3
+310 verbose afterAdd /Users/chenbei/.cnpm/big.js/3.1.3/package/package.json not in flight; writing
+311 silly cache afterAdd json5@0.4.0
+312 verbose afterAdd /Users/chenbei/.cnpm/json5/0.4.0/package/package.json not in flight; writing
+313 verbose afterAdd /Users/chenbei/.cnpm/big.js/3.1.3/package/package.json written
+314 verbose afterAdd /Users/chenbei/.cnpm/json5/0.4.0/package/package.json written
+315 silly install resolved [ { name: 'big.js',
+315 silly install resolved     description: 'A small, fast, easy-to-use library for arbitrary-precision decimal arithmetic',
+315 silly install resolved     version: '3.1.3',
+315 silly install resolved     keywords:
+315 silly install resolved      [ 'arbitrary',
+315 silly install resolved        'precision',
+315 silly install resolved        'arithmetic',
+315 silly install resolved        'big',
+315 silly install resolved        'number',
+315 silly install resolved        'decimal',
+315 silly install resolved        'float',
+315 silly install resolved        'biginteger',
+315 silly install resolved        'bigdecimal',
+315 silly install resolved        'bignumber',
+315 silly install resolved        'bigint',
+315 silly install resolved        'bignum' ],
+315 silly install resolved     repository:
+315 silly install resolved      { type: 'git',
+315 silly install resolved        url: 'git+https://github.com/MikeMcl/big.js.git' },
+315 silly install resolved     main: './big',
+315 silly install resolved     author: { name: 'Michael Mclaughlin', email: 'M8ch88l@gmail.com' },
+315 silly install resolved     bugs: { url: 'https://github.com/MikeMcl/big.js/issues' },
+315 silly install resolved     engines: { node: '*' },
+315 silly install resolved     license: 'MIT',
+315 silly install resolved     scripts:
+315 silly install resolved      { test: 'node ./test/every-test.js',
+315 silly install resolved        build: 'uglifyjs -o ./big.min.js ./big.js' },
+315 silly install resolved     files: [ 'big.js', 'big.min.js' ],
+315 silly install resolved     gitHead: '86268e96b3dbf6db8ce319489f410277d9d4ea1b',
+315 silly install resolved     homepage: 'https://github.com/MikeMcl/big.js#readme',
+315 silly install resolved     _id: 'big.js@3.1.3',
+315 silly install resolved     _shasum: '4cada2193652eb3ca9ec8e55c9015669c9806978',
+315 silly install resolved     _from: 'big.js@>=3.0.2 <4.0.0',
+315 silly install resolved     _npmVersion: '2.9.1',
+315 silly install resolved     _nodeVersion: '0.12.0',
+315 silly install resolved     _npmUser: { name: 'mikemcl', email: 'M8ch88l@gmail.com' },
+315 silly install resolved     maintainers: [ [Object] ],
+315 silly install resolved     dist:
+315 silly install resolved      { shasum: '4cada2193652eb3ca9ec8e55c9015669c9806978',
+315 silly install resolved        size: 14258,
+315 silly install resolved        noattachment: false,
+315 silly install resolved        tarball: 'http://registry.npm.taobao.org/big.js/download/big.js-3.1.3.tgz' },
+315 silly install resolved     directories: {},
+315 silly install resolved     publish_time: 1434321957834,
+315 silly install resolved     _cnpm_publish_time: 1434321957834,
+315 silly install resolved     _resolved: 'https://registry.npm.taobao.org/big.js/download/big.js-3.1.3.tgz',
+315 silly install resolved     readme: 'ERROR: No README data found!' },
+315 silly install resolved   { name: 'json5',
+315 silly install resolved     version: '0.4.0',
+315 silly install resolved     description: 'JSON for the ES5 era.',
+315 silly install resolved     keywords: [ 'json', 'es5' ],
+315 silly install resolved     author: { name: 'Aseem Kishore', email: 'aseem.kishore@gmail.com' },
+315 silly install resolved     license: 'MIT',
+315 silly install resolved     contributors: [ [Object], [Object] ],
+315 silly install resolved     main: 'lib/json5.js',
+315 silly install resolved     bin: { json5: 'lib/cli.js' },
+315 silly install resolved     dependencies: {},
+315 silly install resolved     devDependencies: { mocha: '~1.0.3' },
+315 silly install resolved     scripts:
+315 silly install resolved      { build: './lib/cli.js -c package.json5',
+315 silly install resolved        test: 'mocha --ui exports --reporter spec' },
+315 silly install resolved     homepage: 'http://json5.org/',
+315 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/aseemk/json5.git' },
+315 silly install resolved     bugs: { url: 'https://github.com/aseemk/json5/issues' },
+315 silly install resolved     _id: 'json5@0.4.0',
+315 silly install resolved     dist:
+315 silly install resolved      { shasum: '054352e4c4c80c86c0923877d449de176a732c8d',
+315 silly install resolved        size: 23416,
+315 silly install resolved        noattachment: false,
+315 silly install resolved        tarball: 'http://registry.npm.taobao.org/json5/download/json5-0.4.0.tgz' },
+315 silly install resolved     _from: 'json5@>=0.4.0 <0.5.0',
+315 silly install resolved     _npmVersion: '1.3.21',
+315 silly install resolved     _npmUser: { name: 'aseemk', email: 'aseem.kishore@gmail.com' },
+315 silly install resolved     maintainers: [ [Object] ],
+315 silly install resolved     directories: {},
+315 silly install resolved     publish_time: 1415158021312,
+315 silly install resolved     _cnpm_publish_time: 1415158021312,
+315 silly install resolved     _shasum: '054352e4c4c80c86c0923877d449de176a732c8d',
+315 silly install resolved     _resolved: 'https://registry.npm.taobao.org/json5/download/json5-0.4.0.tgz',
+315 silly install resolved     readme: 'ERROR: No README data found!' } ]
+316 info install big.js@3.1.3 into /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils
+317 info install json5@0.4.0 into /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils
+318 info installOne big.js@3.1.3
+319 verbose installOne of big.js to /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils not in flight; installing
+320 info installOne json5@0.4.0
+321 verbose installOne of json5 to /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils not in flight; installing
+322 verbose lock using /Users/chenbei/.cnpm/_locks/big-js-69e72dc3728b38d0.lock for /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/big.js
+323 verbose lock using /Users/chenbei/.cnpm/_locks/json5-555ef95f47568914.lock for /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/json5
+324 silly install write writing big.js 3.1.3 to /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/big.js
+325 silly install write writing json5 0.4.0 to /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/json5
+326 verbose unbuild node_modules/react-router-loader/node_modules/loader-utils/node_modules/big.js
+327 silly gentlyRm /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/big.js is being purged from base /Users/chenbei/Documents/cbStudy/react/router-test
+328 verbose gentlyRm don't care about contents; nuking /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/big.js
+329 verbose unbuild node_modules/react-router-loader/node_modules/loader-utils/node_modules/json5
+330 verbose tar unpack /Users/chenbei/.cnpm/big.js/3.1.3/package.tgz
+331 verbose tar unpacking to /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/big.js
+332 silly gentlyRm /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/big.js is being purged
+333 verbose gentlyRm don't care about contents; nuking /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/big.js
+334 silly gunzTarPerm modes [ '755', '644' ]
+335 silly gentlyRm /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/json5 is being purged from base /Users/chenbei/Documents/cbStudy/react/router-test
+336 verbose gentlyRm don't care about contents; nuking /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/json5
+337 verbose tar unpack /Users/chenbei/.cnpm/json5/0.4.0/package.tgz
+338 verbose tar unpacking to /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/json5
+339 silly gentlyRm /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/json5 is being purged
+340 verbose gentlyRm don't care about contents; nuking /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/json5
+341 silly gunzTarPerm modes [ '755', '644' ]
+342 silly gunzTarPerm extractEntry package.json
+343 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+344 silly gunzTarPerm extractEntry package.json
+345 silly gunzTarPerm extractEntry README.md
+346 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+347 silly gunzTarPerm extractEntry LICENCE
+348 silly gunzTarPerm modified mode [ 'LICENCE', 438, 420 ]
+349 silly gunzTarPerm extractEntry .npmignore
+350 silly gunzTarPerm extractEntry README.md
+351 silly gunzTarPerm extractEntry .editorconfig
+352 silly gunzTarPerm extractEntry .travis.yml
+353 silly gunzTarPerm extractEntry big.js
+354 silly gunzTarPerm modified mode [ 'big.js', 438, 420 ]
+355 silly gunzTarPerm extractEntry big.min.js
+356 silly gunzTarPerm modified mode [ 'big.min.js', 438, 420 ]
+357 silly gunzTarPerm extractEntry CHANGELOG.md
+358 silly gunzTarPerm extractEntry lib/cli.js
+359 silly gunzTarPerm extractEntry lib/json5.js
+360 silly gunzTarPerm extractEntry lib/require.js
+361 silly gunzTarPerm extractEntry package.json5
+362 silly gunzTarPerm extractEntry test/parse.js
+363 silly gunzTarPerm extractEntry test/require.js
+364 silly gunzTarPerm extractEntry test/stringify.js
+365 silly gunzTarPerm extractEntry test/parse-cases/arrays/leading-comma-array.js
+366 silly gunzTarPerm extractEntry test/parse-cases/arrays/lone-trailing-comma-array.js
+367 silly gunzTarPerm extractEntry test/parse-cases/arrays/empty-array.json
+368 silly gunzTarPerm extractEntry test/parse-cases/arrays/no-comma-array.txt
+369 silly gunzTarPerm extractEntry test/parse-cases/arrays/regular-array.json
+370 silly gunzTarPerm extractEntry test/parse-cases/arrays/trailing-comma-array.json5
+371 silly gunzTarPerm extractEntry test/parse-cases/comments/inline-comment-following-top-level-value.json5
+372 silly gunzTarPerm extractEntry test/parse-cases/comments/block-comment-following-array-element.json5
+373 silly gunzTarPerm extractEntry test/parse-cases/comments/block-comment-in-string.json
+374 silly gunzTarPerm extractEntry test/parse-cases/comments/block-comment-preceding-top-level-value.json5
+375 silly gunzTarPerm extractEntry test/parse-cases/comments/block-comment-with-asterisks.json5
+376 silly gunzTarPerm extractEntry test/parse-cases/comments/inline-comment-following-array-element.json5
+377 silly gunzTarPerm extractEntry test/parse-cases/comments/block-comment-following-top-level-value.json5
+378 silly gunzTarPerm extractEntry test/parse-cases/comments/inline-comment-in-string.json
+379 silly gunzTarPerm extractEntry test/parse-cases/comments/inline-comment-preceding-top-level-value.json5
+380 silly gunzTarPerm extractEntry test/parse-cases/comments/top-level-block-comment.txt
+381 silly gunzTarPerm extractEntry test/parse-cases/comments/top-level-inline-comment.txt
+382 silly gunzTarPerm extractEntry test/parse-cases/comments/unterminated-block-comment.txt
+383 silly gunzTarPerm extractEntry test/parse-cases/misc/empty.txt
+384 silly gunzTarPerm extractEntry test/parse-cases/misc/npm-package.json
+385 silly gunzTarPerm extractEntry test/parse-cases/misc/npm-package.json5
+386 silly gunzTarPerm extractEntry test/parse-cases/misc/readme-example.json5
+387 silly gunzTarPerm extractEntry test/parse-cases/misc/valid-whitespace.json5
+388 silly gunzTarPerm extractEntry test/parse-cases/new-lines/.editorconfig
+389 silly gunzTarPerm extractEntry test/parse-cases/new-lines/.gitattributes
+390 silly gunzTarPerm extractEntry test/parse-cases/new-lines/comment-cr.json5
+391 silly gunzTarPerm extractEntry test/parse-cases/new-lines/comment-crlf.json5
+392 silly gunzTarPerm extractEntry test/parse-cases/new-lines/comment-lf.json5
+393 silly gunzTarPerm extractEntry test/parse-cases/new-lines/escaped-cr.json5
+394 silly gunzTarPerm extractEntry test/parse-cases/new-lines/escaped-crlf.json5
+395 silly gunzTarPerm extractEntry test/parse-cases/new-lines/escaped-lf.json5
+396 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-noctal.js
+397 silly gunzTarPerm extractEntry test/parse-cases/numbers/noctal-with-leading-octal-digit.js
+398 silly gunzTarPerm extractEntry test/parse-cases/numbers/noctal.js
+399 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-noctal.js
+400 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-zero-binary-coffeescript.txt
+401 silly gunzTarPerm extractEntry test/parse-cases/numbers/float-with-integer-exponent.json
+402 silly gunzTarPerm extractEntry test/parse-cases/numbers/float.json
+403 silly gunzTarPerm extractEntry test/parse-cases/numbers/hexadecimal-empty.txt
+404 silly gunzTarPerm extractEntry test/parse-cases/numbers/hexadecimal-lowercase-letter.json5
+405 silly gunzTarPerm extractEntry test/parse-cases/numbers/hexadecimal-uppercase-x.json5
+406 silly gunzTarPerm extractEntry test/parse-cases/numbers/hexadecimal-with-integer-exponent.json5
+407 silly gunzTarPerm extractEntry test/parse-cases/numbers/hexadecimal.json5
+408 silly gunzTarPerm extractEntry test/parse-cases/numbers/infinity.json5
+409 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-float-exponent.txt
+410 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-hexadecimal-exponent.txt
+411 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-integer-exponent.json
+412 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-negative-float-exponent.txt
+413 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-negative-hexadecimal-exponent.txt
+414 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-negative-integer-exponent.json
+415 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-negative-zero-integer-exponent.json
+416 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-positive-float-exponent.txt
+417 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-positive-hexadecimal-exponent.txt
+418 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-positive-integer-exponent.json
+419 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-positive-zero-integer-exponent.json
+420 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-zero-integer-exponent.json
+421 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer.json
+422 silly gunzTarPerm extractEntry test/parse-cases/numbers/lone-decimal-point.txt
+423 silly gunzTarPerm extractEntry test/parse-cases/numbers/nan.json5
+424 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-binary-coffeescript.txt
+425 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-float-leading-decimal-point.json5
+426 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-float-leading-zero.json
+427 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-float-trailing-decimal-point.json5
+428 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-float.json
+429 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-hexadecimal.json5
+430 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-infinity.json5
+431 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-integer.json
+432 silly gunzTarPerm extractEntry test/parse-cases/numbers/binary-coffeescript.txt
+433 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-octal-coffeescript.txt
+434 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-octal.txt
+435 silly gunzTarPerm extractEntry test/parse-cases/numbers/float-leading-decimal-point.json5
+436 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-zero-float-leading-decimal-point.json5
+437 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-zero-float-trailing-decimal-point.json5
+438 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-zero-float.json
+439 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-zero-hexadecimal.json5
+440 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-zero-integer.json
+441 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-zero-octal-coffeescript.txt
+442 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-zero-octal.txt
+443 silly gunzTarPerm extractEntry test/parse-cases/numbers/float-leading-zero.json
+444 silly gunzTarPerm extractEntry test/parse-cases/numbers/float-trailing-decimal-point-with-integer-exponent.json5
+445 silly gunzTarPerm extractEntry test/parse-cases/numbers/octal-coffeescript.txt
+446 silly gunzTarPerm extractEntry test/parse-cases/numbers/octal.txt
+447 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-binary-coffeescript.txt
+448 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-float-leading-decimal-point.json5
+449 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-float-leading-zero.json5
+450 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-float-trailing-decimal-point.json5
+451 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-float.json5
+452 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-hexadecimal.json5
+453 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-infinity.json5
+454 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-integer.json5
+455 silly gunzTarPerm extractEntry test/parse-cases/numbers/float-trailing-decimal-point.json5
+456 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-octal-coffeescript.txt
+457 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-octal.txt
+458 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-zero-binary-coffeescript.txt
+459 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-zero-float-leading-decimal-point.json5
+460 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-zero-float-trailing-decimal-point.json5
+461 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-zero-float.json5
+462 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-zero-hexadecimal.json5
+463 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-zero-integer.json5
+464 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-zero-octal-coffeescript.txt
+465 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-zero-octal.txt
+466 silly gunzTarPerm extractEntry test/parse-cases/numbers/zero-binary-coffeescript.txt
+467 silly gunzTarPerm extractEntry test/parse-cases/numbers/zero-float-leading-decimal-point.json5
+468 silly gunzTarPerm extractEntry test/parse-cases/numbers/zero-float-trailing-decimal-point.json5
+469 silly gunzTarPerm extractEntry test/parse-cases/numbers/zero-float.json
+470 silly gunzTarPerm extractEntry test/parse-cases/numbers/zero-hexadecimal.json5
+471 silly gunzTarPerm extractEntry test/parse-cases/numbers/zero-integer-with-integer-exponent.json
+472 silly gunzTarPerm extractEntry test/parse-cases/numbers/zero-integer.json
+473 silly gunzTarPerm extractEntry test/parse-cases/numbers/zero-octal-coffeescript.txt
+474 silly gunzTarPerm extractEntry test/parse-cases/numbers/zero-octal.txt
+475 silly gunzTarPerm extractEntry test/parse-cases/objects/lone-trailing-comma-object.txt
+476 silly gunzTarPerm extractEntry test/parse-cases/objects/duplicate-keys.json
+477 silly gunzTarPerm extractEntry test/parse-cases/objects/illegal-unquoted-key-number.txt
+478 silly gunzTarPerm extractEntry test/parse-cases/objects/illegal-unquoted-key-symbol.txt
+479 silly gunzTarPerm extractEntry test/parse-cases/objects/leading-comma-object.txt
+480 silly gunzTarPerm extractEntry test/parse-cases/objects/empty-object.json
+481 silly gunzTarPerm extractEntry test/parse-cases/objects/no-comma-object.txt
+482 silly gunzTarPerm extractEntry test/parse-cases/objects/reserved-unquoted-key.json5
+483 silly gunzTarPerm extractEntry test/parse-cases/objects/single-quoted-key.json5
+484 silly gunzTarPerm extractEntry test/parse-cases/objects/trailing-comma-object.json5
+485 silly gunzTarPerm extractEntry test/parse-cases/objects/unquoted-keys.json5
+486 silly gunzTarPerm extractEntry test/parse-cases/strings/escaped-single-quoted-string.json5
+487 silly gunzTarPerm extractEntry test/parse-cases/strings/multi-line-string.json5
+488 silly gunzTarPerm extractEntry test/parse-cases/strings/single-quoted-string.json5
+489 silly gunzTarPerm extractEntry test/parse-cases/strings/unescaped-multi-line-string.txt
+490 silly gunzTarPerm extractEntry test/parse-cases/todo/unicode-escaped-unquoted-key.json5
+491 silly gunzTarPerm extractEntry test/parse-cases/todo/unicode-unquoted-key.json5
+492 silly gunzTarPerm extractEntry test/readme.md
+493 verbose write writing to /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/big.js/package.json
+494 info preinstall big.js@3.1.3
+495 verbose readDependencies loading dependencies from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/big.js/package.json
+496 verbose readDependencies loading dependencies from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/big.js/package.json
+497 silly install resolved []
+498 verbose about to build /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/big.js
+499 info build /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/big.js
+500 info linkStuff big.js@3.1.3
+501 silly linkStuff big.js@3.1.3 has /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules as its parent node_modules
+502 verbose linkBins big.js@3.1.3
+503 verbose linkMans big.js@3.1.3
+504 verbose rebuildBundles big.js@3.1.3
+505 info install big.js@3.1.3
+506 info postinstall big.js@3.1.3
+507 verbose unlock done using /Users/chenbei/.cnpm/_locks/big-js-69e72dc3728b38d0.lock for /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/big.js
+508 verbose write writing to /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/json5/package.json
+509 info preinstall json5@0.4.0
+510 verbose readDependencies loading dependencies from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/json5/package.json
+511 verbose readDependencies loading dependencies from /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/json5/package.json
+512 silly install resolved []
+513 verbose about to build /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/json5
+514 info build /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/json5
+515 info linkStuff json5@0.4.0
+516 silly linkStuff json5@0.4.0 has /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules as its parent node_modules
+517 verbose linkBins json5@0.4.0
+518 verbose link bins [ { json5: 'lib/cli.js' },
+518 verbose link bins   '/Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/.bin',
+518 verbose link bins   false ]
+519 verbose linkMans json5@0.4.0
+520 verbose rebuildBundles json5@0.4.0
+521 silly gentlyRm /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/.bin/json5 is being purged
+522 verbose gentlyRm don't care about contents; nuking /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/.bin/json5
+523 info install json5@0.4.0
+524 info postinstall json5@0.4.0
+525 verbose unlock done using /Users/chenbei/.cnpm/_locks/json5-555ef95f47568914.lock for /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils/node_modules/json5
+526 verbose about to build /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils
+527 info build /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils
+528 info linkStuff loader-utils@0.2.12
+529 silly linkStuff loader-utils@0.2.12 has /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules as its parent node_modules
+530 verbose linkBins loader-utils@0.2.12
+531 verbose linkMans loader-utils@0.2.12
+532 verbose rebuildBundles loader-utils@0.2.12
+533 verbose rebuildBundles [ '.bin', 'big.js', 'json5' ]
+534 info install loader-utils@0.2.12
+535 info postinstall loader-utils@0.2.12
+536 verbose unlock done using /Users/chenbei/.cnpm/_locks/loader-utils-a2267e61d2f8a174.lock for /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader/node_modules/loader-utils
+537 verbose about to build /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader
+538 info build /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader
+539 info linkStuff react-router-loader@0.5.3
+540 silly linkStuff react-router-loader@0.5.3 has /Users/chenbei/Documents/cbStudy/react/router-test/node_modules as its parent node_modules
+541 verbose linkBins react-router-loader@0.5.3
+542 verbose linkMans react-router-loader@0.5.3
+543 verbose rebuildBundles react-router-loader@0.5.3
+544 verbose rebuildBundles [ 'loader-utils' ]
+545 info install react-router-loader@0.5.3
+546 info postinstall react-router-loader@0.5.3
+547 verbose unlock done using /Users/chenbei/.cnpm/_locks/react-router-loader-b41dcb7cc1fbd79a.lock for /Users/chenbei/Documents/cbStudy/react/router-test/node_modules/react-router-loader
+548 info build /Users/chenbei/Documents/cbStudy/react/router-test
+549 info linkStuff react-router@2.0.0-rc5
+550 silly linkStuff react-router@2.0.0-rc5 has /Users/chenbei/Documents/cbStudy/react as its parent node_modules
+551 verbose linkBins react-router@2.0.0-rc5
+552 verbose linkMans react-router@2.0.0-rc5
+553 verbose rebuildBundles react-router@2.0.0-rc5
+554 verbose rebuildBundles [ '.bin',
+554 verbose rebuildBundles   'babel',
+554 verbose rebuildBundles   'babel-core',
+554 verbose rebuildBundles   'babel-eslint',
+554 verbose rebuildBundles   'babel-loader',
+554 verbose rebuildBundles   'babel-plugin-dev-expression',
+554 verbose rebuildBundles   'bundle-loader',
+554 verbose rebuildBundles   'codecov.io',
+554 verbose rebuildBundles   'coveralls',
+554 verbose rebuildBundles   'css-loader',
+554 verbose rebuildBundles   'eslint',
+554 verbose rebuildBundles   'eslint-config-rackt',
+554 verbose rebuildBundles   'eslint-plugin-react',
+554 verbose rebuildBundles   'expect',
+554 verbose rebuildBundles   'express',
+554 verbose rebuildBundles   'express-urlrewrite',
+554 verbose rebuildBundles   'gzip-size',
+554 verbose rebuildBundles   'history',
+554 verbose rebuildBundles   'invariant',
+554 verbose rebuildBundles   'isparta-loader',
+554 verbose rebuildBundles   'jsx-loader',
+554 verbose rebuildBundles   'mocha',
+554 verbose rebuildBundles   'pretty-bytes',
+554 verbose rebuildBundles   'qs',
+554 verbose rebuildBundles   'react',
+554 verbose rebuildBundles   'react-addons-css-transition-group',
+554 verbose rebuildBundles   'react-addons-test-utils',
+554 verbose rebuildBundles   'react-dom',
+554 verbose rebuildBundles   'react-hot-loader',
+554 verbose rebuildBundles   'react-router',
+554 verbose rebuildBundles   'react-router-loader',
+554 verbose rebuildBundles   'rimraf',
+554 verbose rebuildBundles   'style-loader',
+554 verbose rebuildBundles   'warning',
+554 verbose rebuildBundles   'webpack',
+554 verbose rebuildBundles   'webpack-dev-middleware' ]
+555 info install react-router@2.0.0-rc5
+556 info postinstall react-router@2.0.0-rc5
+557 info prepublish react-router@2.0.0-rc5
+558 verbose validateInstall loading /Users/chenbei/Documents/cbStudy/react/router-test/package.json for validation
+559 verbose stack Error: The package history@2.0.0-rc2 does not satisfy its siblings' peerDependencies requirements!
+559 verbose stack     at /usr/local/lib/node_modules/cnpm/node_modules/npm/lib/install.js:125:32
+559 verbose stack     at /usr/local/lib/node_modules/cnpm/node_modules/npm/lib/install.js:268:7
+559 verbose stack     at /usr/local/lib/node_modules/cnpm/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+559 verbose stack     at /usr/local/lib/node_modules/cnpm/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+559 verbose stack     at cb (/usr/local/lib/node_modules/cnpm/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+559 verbose stack     at /usr/local/lib/node_modules/cnpm/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+559 verbose stack     at cb (/usr/local/lib/node_modules/cnpm/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+559 verbose stack     at /usr/local/lib/node_modules/cnpm/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+559 verbose stack     at cb (/usr/local/lib/node_modules/cnpm/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+559 verbose stack     at /usr/local/lib/node_modules/cnpm/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+560 verbose cwd /Users/chenbei/Documents/cbStudy/react/router-test
+561 error Darwin 15.2.0
+562 error argv "/usr/local/bin/node" "/usr/local/lib/node_modules/cnpm/node_modules/.bin/npm" "--userconfig=/Users/chenbei/.cnpmrc" "--disturl=https://npm.taobao.org/mirrors/node" "--cache=/Users/chenbei/.cnpm" "--registry=https://registry.npm.taobao.org" "--node-gyp=/usr/local/lib/node_modules/cnpm/node_modules/node-gyp/bin/node-gyp.js" "install"
+563 error node v4.2.3
+564 error npm  v2.14.15
+565 error code EPEERINVALID
+566 error peerinvalid The package history@2.0.0-rc2 does not satisfy its siblings' peerDependencies requirements!
+566 error peerinvalid Peer react-router@1.0.3 wants history@^1.17.0
+567 verbose exit [ 1, true ]
